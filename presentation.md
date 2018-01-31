@@ -65,22 +65,37 @@ Vigyázz, mert conflict előfordulhat, ezeket manuálisan mindig fel kell oldani
 ---
 # DEMO
 ---
+# Git telepítése
+
+###### Linux
+Ubuntu: terminálban add ki ezt parancsot: `sudo apt-get install git-all`. Vagy keresd ki itt a megfelelő parancsot: https://git-scm.com/download/linux
+
+###### Windows:
+Installer letölthető innen: https://git-scm.com/download/win. Ha a letöltés befejeződött, futtasd le, hogy ténylegesen feltelepüljön.
+Vagy: https://gitforwindows.org/ 
+
+###### Mac:
+terminálban gépeld be, hogy `git`. Ha nincs telepítve a program, akkor (elvileg) felugrik egy ablak, és megkérdezi, hogy szeretnéd-e telepíteni. (Ha ez nem működne: https://www.atlassian.com/git/tutorials/install-git)
+
+---
 # Github
 1. Menj https://github.com/
 2. Hozz létre egy accountot
 3. Hozz létre egy új repo-t (itinialize with README)
 4. Repo neve: r-ladies-git-tutorial
 
-Példa: https://github.com/gszjulcsi/r-ladies-git-tutorial
+Példa: https://github.com/YOUR_ACCOUNT/r-ladies-git-tutorial
 
 ---
 # Git a terminálban
 
 1. Nyiss meg egy terminált!
-2. `mkdir rladies/gitrepos`
-3. `cd rladies/gitrepos`
-4. `git clone git@github.com:gszjulcsi/r-ladies-git-tutorial.git`
-5. `cd r-ladies-git-tutorial`
+2. `mkdir rladies/gitrepos` 
+(Windows: `mkdir rladies\gitrepos`)
+3. `cd rladies/gitrepos` 
+(Windows: `cd rladies\gitrepos`)
+4. `git clone https://github.com/YOUR_ACCOUNT/r-ladies-git-tutorial.git`
+5. `cd r-ladies-git-tutorial` 
 6. `git status`
 
 ---
